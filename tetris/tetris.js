@@ -1,7 +1,7 @@
 const canvas = document.getElementById("tetris");
 const scoreElement = document.querySelector("#score")
 const context = canvas.getContext('2d');
-const audio = new Audio("assets/tetris.mp3");
+const audio = new Audio("https://ia902905.us.archive.org/11/items/TetrisThemeMusic/Tetris.mp3");
 const startGameButton = document.querySelector("#gameStart");
 const startGameContainer = document.querySelector(".inital-game-screen");
 audio.volume = 0.25;
